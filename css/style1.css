@@ -1,0 +1,123 @@
+:root {
+    --prim: #e17487;
+    --sec: #26292e;
+    --grad: radial-gradient(
+        at top center,
+        #e17487,
+        #ec8da1
+    );
+    --mainMid: #f4f4f6;
+    --fig1: #f4f4f6;
+    --fig2: #444444;
+    --btn: #4a4a4a;
+    --font1: "Playwrite CU", cursive;
+}
+
+* {box-sizing: border-box;}
+
+/* tag names */
+
+header {
+    background-color: var(--sec);
+}
+
+/* classes */
+
+.buttons {
+
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    border: 1px solid orange;
+}
+
+.icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    stroke-width: 0;
+    color: var(--sec);
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.icons {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.nav {
+    margin: 0;
+    float: right;
+    
+}
+
+.socials {
+    text-align: right;
+    list-style-type: none;
+}
+
+.top-text {
+    font-family: sans-serif;
+    color: white;
+}
+
+.heading {
+    margin: 0;
+    padding; 40px 40px;
+    font-family: var(--font1);
+    color: #ddd;
+    padding-left: 60px;
+}
+
+.visually-hidden {
+    display:
+}
+
+/* ids */
+
+#dlBtn {
+    text-decoration: none;
+    padding: 10px 12px;
+    font-family: sans-serif;
+    font-weight: 450;
+    text-transform: capitalize;
+    background-color: var(--btn);
+    border: none;
+    border-radius: 5px;
+}
+
+#mainMid {
+    background-color: var(--mainMid);
+}
+
+
+#mainTop {
+    background-color: var(--prim);
+    background-image: var(--grad);
+    padding-left: 60px;
+}
+
+#mainImg {
+    float: right;
+    display: block;
+}
+
+#mtText1, #mtText2 {
+    width: 35%;
+}
+
+#moreBtn {
+    text-decoration: none;
+    padding: 10px 12px;
+    font-family: sans-serif;
+    font-weight: 450;
+    text-transform: capitalize;
+    background-color: var(--btn);
+    border: none;
+    border-radius: 5px;
+}
