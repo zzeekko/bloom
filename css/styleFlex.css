@@ -23,8 +23,8 @@ header {
 
 /* classes */
 
-.buttons {
-
+.button-section {
+    display: flex;
 }
 
 .clear {
@@ -32,6 +32,7 @@ header {
 }
 
 .container {
+    margin: 0 auto;
     border: 1px solid orange;
 }
 
@@ -50,35 +51,34 @@ header {
     border-radius: 50%;
 }
 
-.nav {
-    margin: 0;
-    float: right;
-    
-}
-
 .socials {
     text-align: right;
+    display: inline;
+    margin: 40px auto;
     list-style-type: none;
 }
 
 .top-text {
     font-family: sans-serif;
     color: white;
+    border: 1px solid orange;
 }
 
-.heading {
+.header {
     margin: 0;
-    padding; 40px 40px;
+    padding: 0;
     font-family: var(--font1);
     color: #ddd;
-    padding-left: 60px;
-}
-
-.visually-hidden {
-    display:
+    padding-left: 100px;
+    border: 1px solid orange;
 }
 
 /* ids */
+
+
+#clients {
+    position: flex;
+}
 
 #dlBtn {
     text-decoration: none;
@@ -86,25 +86,39 @@ header {
     font-family: sans-serif;
     font-weight: 450;
     text-transform: capitalize;
-    background-color: var(--btn);
-    border: none;
     border-radius: 5px;
+    border: 1px solid orange;
+    background: var(--btn);
+    width: 10%;
+    text-align: center;
+}
+
+#headerRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mainBottom {
+    font-family: sans-serif;
+    width: calc((100% / 3) * 2);
+    border: 1px solid orange;
 }
 
 #mainMid {
     background-color: var(--mainMid);
+    font-family: sans-serif;
 }
 
+#mainImg {
+    border: 1px solid orange;
+    display: flex;
+    justify-content: space-between;
+}
 
 #mainTop {
     background-color: var(--prim);
     background-image: var(--grad);
     padding-left: 60px;
-}
-
-#mainImg {
-    float: right;
-    display: block;
 }
 
 #mtText1, #mtText2 {
@@ -117,7 +131,13 @@ header {
     font-family: sans-serif;
     font-weight: 450;
     text-transform: capitalize;
-    background-color: var(--btn);
-    border: none;
     border-radius: 5px;
+    border: 1px solid orange;
+    width: 10%;
+    text-align: center;
+    background-color: var(--btn);
+}
+
+#moreBtn a, #dlBtn a {
+    text-decoration: none;
 }
