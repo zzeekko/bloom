@@ -27,6 +27,17 @@ header {
     font-weight: 700;
 }
 
+.button {
+    height: 50px;
+    padding: 4px 16px;
+    margin-top: 20px;
+    margin-left: 40px; 
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: var(--btn);
+}
+
 .container {
     margin: 0 auto;
     border: 1px solid orange;
@@ -34,8 +45,9 @@ header {
 
 .clients-text {
     padding-left: 20px;
-    padding-right: 10px;
-    width: 60%;
+    padding-right: 5px;
+    width: 75%;
+    font-size: medium;
 }
 
 .footer-text {
@@ -79,12 +91,15 @@ header {
 .product {
     height: 20px;
     background-color: var(--fig1);
-    flex-direction: column;
 }
 
 .products-section {
-    width: 100%;
-    height: 100%;
+    margin-left: 200px;
+    width: calc((100% / 3) * 2);
+}
+
+.text {
+    font-family: sans-serif;
 }
 
 .top-text {
@@ -102,16 +117,20 @@ header {
     border: 1px solid orange;
 }
 
-/* ids */
-
-#buttons {
-    display: flex;
+.product {
+    background-color: var(--fig2);
+    border: 10px solid #999;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 180px;
 }
 
+/* ids */
+
+
+
 #clients {
-    margin-left: 200px;
-    height: 450px;
-    margin-bottom: 50px;
+    width: calc(100% / 3);
 }
 
 #clientsHeading {
@@ -122,7 +141,7 @@ header {
 
 #dlBtn {
     text-decoration: none;
-    padding: 10px 12px;
+    padding: 16px 19px;
     font-family: sans-serif;
     font-weight: 450;
     text-transform: capitalize;
@@ -132,6 +151,7 @@ header {
     width: 24%;
     text-align: center;
     margin-left: 15px;
+    margin-top: 10px;
 }
 
 #footer {
@@ -141,6 +161,10 @@ header {
 #footerRow {
     display: flex;
     justify-content: space-between;
+}
+
+#headerHeading {
+    width: 80%;
 }
 
 #headerRow {
@@ -156,7 +180,6 @@ header {
 }
 
 #mainBottomText {
-    padding-left: 190px;
     width: 150%;
 }
 
@@ -170,8 +193,10 @@ header {
     margin: 80px;
 }
 
-#mainListItemText {
+.main-list-item-text {
+    color: #888;
     width: 70%;
+    margin-top: 50px;
     font-weight: 200;
 }
 
@@ -179,6 +204,10 @@ header {
     background-color: var(--mainMid);
     font-family: sans-serif;
     border-bottom: 5px solid #eca9ee;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    padding-left: 190px;
 }
 
 #mainImg {
@@ -204,32 +233,18 @@ header {
 }
 
 #mtHeading {
-    width: 60%;
+    width: 70%;
 }
 
 #mtText1, #mtText2 {
-    width: 55%;
-}
-
-#moreBtn {
-    text-decoration: none;
-    padding: 10px 12px;
-    font-family: sans-serif;
-    font-weight: 450;
-    text-transform: capitalize;
-    border-radius: 5px;
-    border: 1px solid orange;
-    width: 24%;
-    text-align: center;
-    background-color: var(--btn);
-    margin-right: 15px;
-}
-
-#moreBtn a, #dlBtn a {
-    text-decoration: none;
+    width: 70%;
 }
 
 #products {
-    width: 30%;
+    width: 100%;
     display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+    border: 1px solid red;
 }
+
