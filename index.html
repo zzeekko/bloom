@@ -42,75 +42,87 @@
     </header>
     <main class="main" id="main">
         <div class="container" id="mainTop">
-            <h1 class="top-text" id="mtHeading">Welcome to our Landing Page!</h1>
-            <p class="top-text" id="mtText1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quaerat praesentium enim, illum, eveniet neque labore sit sint doloremque excepturi corrupti veritatis similique dolorem! Vel accusantium totam, sed officia non soluta doloremque.</p>
-            <p class="top-text" id="mtText2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores numquam ex, eos quas fuga iste odit ut?</p>
-            <div class="button-section">
-                <div class="buttons" id="moreBtn"><a href="#">Learn More</a></div>
-                <div class="buttons" id="dlBtn"><a href="#">Download Now</a></div>
-            </div>
-            <div id="mainImg">
-                <img src="images/laptop.jpg" alt="a laptop" class="main-img">
+            <div class="row" id="mainTopRow">
+                <div class="content-box">
+                    <h2 class="top-text" id="mtHeading">Welcome to our Landing Page!</h2>
+                    <p class="top-text" id="mtText1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quaerat praesentium enim, illum, eveniet neque labore sit sint doloremque excepturi corrupti veritatis similique dolorem! Vel accusantium totam, sed officia non soluta doloremque.</p>
+                    <p class="top-text" id="mtText2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores numquam ex, eos quas fuga iste odit ut?</p>
+                    <div class="button-section" id="buttons">
+                        <div class="buttons" id="moreBtn"><a href="#">Learn More</a></div>
+                        <div class="buttons" id="dlBtn"><a href="#">Download Now</a></div>
+                    </div>
+                </div>
+                <div class="image-div" id="mainImgDiv">
+                    <img src="images/laptop.jpg" alt="a laptop" id="mainImg">
+                </div>
             </div>
         </div>
         <!-- <div class="clear"></div> -->
         <div class="container" id="mainMid">
-            <ul>
-                <li class="main-list">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae omnis minima assumenda odio impedit eaque temporibus? Ad expedita molestias cumque modi ullam nulla ut reprehenderit nihil repellat, necessitatibus minima vero quasi nostrum?</p>
-                </li>
-                <li class="main-list">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae omnis minima assumenda odio impedit eaque temporibus? Ad expedita molestias cumque modi ullam nulla ut reprehenderit nihil repellat, necessitatibus minima vero quasi nostrum?</p>
-                </li>
-                <li class="main-list">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae omnis minima assumenda odio impedit eaque temporibus? Ad expedita molestias cumque modi ullam nulla ut reprehenderit nihil repellat, necessitatibus minima vero quasi nostrum?</p>
-                </li>
-            </ul>
+            <div class="row" id="mainMidRow">
+                <ul id="mainList">
+                    <li class="main-list-item">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p id="mainListItemText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae omnis minima assumenda odio impedit eaque temporibus? Ad expedita molestias cumque modi ullam nulla ut reprehenderit nihil repellat, necessitatibus minima vero quasi nostrum?</p>
+                    </li>
+                    <li class="main-list-item">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p id="mainListItemText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae omnis minima assumenda odio impedit eaque temporibus? Ad expedita molestias cumque modi ullam nulla ut reprehenderit nihil repellat, necessitatibus minima vero quasi nostrum?</p>
+                    </li>
+                    <li class="main-list-item">
+                        <h2>Lorem, ipsum dolor.</h2>
+                        <p id="mainListItemText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae omnis minima assumenda odio impedit eaque temporibus? Ad expedita molestias cumque modi ullam nulla ut reprehenderit nihil repellat, necessitatibus minima vero quasi nostrum?</p>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="figures" id="mainBottom">
-            <h3>Checkout our Products!</h3>
-            <div class="laptop-fig"></div>
-            <div class="laptop-fig"></div>
-            <div class="laptop-fig"></div>
-            <div class="laptop-fig"></div>
-        </div>
-        <div class="container" id="clients">
-            <h2>What our clients are saying...</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas amet quidem sint officia eveniet adipisci dolor, dolores aliquid deserunt dolorum. Doloremque et sequi at deserunt? -<span>John Smith</span> </p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas amet quidem sint officia eveniet adipisci dolor, dolores aliquid deserunt dolorum. Doloremque et sequi at deserunt? -<span>John Smith</span> </p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas amet quidem sint officia eveniet adipisci dolor, dolores aliquid deserunt dolorum. Doloremque et sequi at deserunt? -<span>John Smith</span> </p>
+        <div class="container" id="mainBottom">
+            <div class="row" id="mainBottomRow">
+                <div class="products-section">
+                    <h3 id="mainBottomText">Checkout our Products!</h3>
+                    <div class="container" id="products">
+                        <div class="product"></div>
+                        <div class="product"></div>
+                        <div class="product"></div>
+                        <div class="product"></div>
+                    </div>
+                </div>
+                <div class="container" id="clients">
+                    <h2 class="clients-heading" id="clientsHeading">What our clients are saying...</h2>
+                    <p class="clients-text" id="clientsText1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas amet quidem sint officia eveniet adipisci dolor, dolores aliquid deserunt dolorum. Doloremque et sequi at deserunt? -<span class="bold">John Smith</span> </p>
+                    <p class="clients-text" id="clientsText2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas amet quidem sint officia eveniet adipisci dolor, dolores aliquid deserunt dolorum. Doloremque et sequi at deserunt? -<span class="bold">John Smith</span> </p>
+                    <p class="clients-text" id="clientsText3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas amet quidem sint officia eveniet adipisci dolor, dolores aliquid deserunt dolorum. Doloremque et sequi at deserunt? -<span class="bold">John Smith</span> </p>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer" id="footer">
         <section class="section" id="footerSection">
-            <div class="container">
-                <p class="footer-text">Copyright &copy; 2012 Bloom Web Design &middot; All rights reserved</p>
+            <div class="row" id="footerRow">
+                    <p class="footer-text">Copyright &copy; 2012 Bloom Web Design &middot; All rights reserved</p>
+                <nav class="nav" id="bottomNav">
+                    <ul>
+                        <li class="socials">
+                            <a href="#">
+                                <span class="visually-hidden">facebook</span>
+                                <div class="icon"></div>
+                            </a>
+                        </li>
+                        <li class="socials">
+                            <a href="#">
+                                <span class="visually-hidden">twitter</span>
+                                <div class="icon"></div>
+                            </a>
+                        </li>
+                        <li class="socials">
+                            <a href="#">
+                                <span class="visually-hidden">rss</span>
+                                <div class="icon"></div>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="nav">
-                <ul>
-                    <li class="socials">
-                        <a href="#">
-                            <span class="visually-hidden">facebook</span>
-                            <div class="icon"></div>
-                        </a>
-                    </li>
-                    <li class="socials">
-                        <a href="#">
-                            <span class="visually-hidden">twitter</span>
-                            <div class="icon"></div>
-                        </a>
-                    </li>
-                    <li class="socials">
-                        <a href="#">
-                            <span class="visually-hidden">rss</span>
-                            <div class="icon"></div>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
         </section>
     </footer>
 </body>
