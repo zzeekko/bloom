@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styleFlex.css">
+    <link rel="stylesheet" href="css/styleFloat.css">
     <title>Bloom Landing Page</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
             <div class="row" id="headerRow">
                 <h1 class="heading" id="headerHeading">Bloom Landing Page</h1>
                 <nav class="nav" id="topNav">
-                    <ul>
+                    <ul id="navList">
                         <li class="socials">
                             <a href="#">
                                 <span class="visually-hidden">facebook</span>
@@ -35,15 +35,15 @@
                             </a>
                         </li>
                     </ul>
-                    <!-- <div class="clear"></div> -->
                 </nav>
+                <div class="clear"></div>
             </div>
         </div>
     </header>
     <main class="main" id="main">
         <div class="container" id="mainTop">
             <div class="row" id="mainTopRow">
-                <div class="content-box">
+                <div class="content-box" id="mainTopContent">
                     <h2 class="top-text" id="mtHeading">Welcome to our Landing Page!</h2>
                     <p class="top-text" id="mtText1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quaerat praesentium enim, illum, eveniet neque labore sit sint doloremque excepturi corrupti veritatis similique dolorem! Vel accusantium totam, sed officia non soluta doloremque.</p>
                     <p class="top-text" id="mtText2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores numquam ex, eos quas fuga iste odit ut?</p>
@@ -57,20 +57,23 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="clear"></div> -->
+        <div class="clear"></div>
         <div class="container" id="mainMid">
             <div class="row" id="mainMidRow">
                 <div id="mainList1">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p class="main-list-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae omnis minima assumenda odio impedit eaque temporibus? Ad expedita molestias cumque modi ullam nulla ut reprehenderit nihil repellat, necessitatibus minima vero quasi nostrum?</p>
+                    <h2 class="main-list-item-header">Lorem, ipsum dolor.</h2>
+                    <p class="main-list-item-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, minima velit consequuntur perferendis quae eius atque odio quasi tempora dignissimos quis totam molestiae quos sunt.</p>
+                    <p class="main-list-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae expedita quam error consequuntur quasi, eveniet consectetur in?</p>
                 </div>
                 <div id="mainList2">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p class="main-list-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae omnis minima assumenda odio impedit eaque temporibus? Ad expedita molestias cumque modi ullam nulla ut reprehenderit nihil repellat, necessitatibus minima vero quasi nostrum?</p>
+                    <h2 class="main-list-item-header">Lorem, ipsum dolor.</h2>
+                    <p class="main-list-item-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste mollitia explicabo blanditiis aspernatur repudiandae labore sequi! Qui debitis corrupti pariatur tenetur vitae accusamus, repellat nobis.</p>
+                    <p class="main-list-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae expedita quam error consequuntur quasi, eveniet consectetur in?</p>
                 </div>
                 <div id="mainList3">
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p class="main-list-item-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae omnis minima assumenda odio impedit eaque temporibus? Ad expedita molestias cumque modi ullam nulla ut reprehenderit nihil repellat, necessitatibus minima vero quasi nostrum?</p>
+                    <h2 class="main-list-item-header">Lorem, ipsum dolor.</h2>
+                    <p class="main-list-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed natus ullam dicta neque, ratione minima commodi fugit corrupti exercitationem, repellat quae vel dolorem laudantium iusto.</p>
+                    <p class="main-list-item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae expedita quam error consequuntur quasi, eveniet consectetur in?</p>
                 </div>
             </div>
         </div>
@@ -97,7 +100,7 @@
     <footer class="footer" id="footer">
         <section class="section" id="footerSection">
             <div class="row" id="footerRow">
-                    <p class="footer-text">Copyright &copy; 2012 Bloom Web Design &middot; All rights reserved</p>
+                    <p class="colophon">Copyright &copy; 2012 Bloom Web Design &middot; All rights reserved</p>
                 <nav class="nav" id="bottomNav">
                     <ul>
                         <li class="socials">
@@ -120,6 +123,7 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="clear"></div>
             </div>
         </section>
     </footer>
