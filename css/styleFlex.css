@@ -258,8 +258,8 @@ footer {
 #products {
     width: 100%;
     display: flex;
-    gap: 45px;
     flex-wrap: wrap;
+    justify-content: space-around;
     border: 1px solid red;
 }
 
