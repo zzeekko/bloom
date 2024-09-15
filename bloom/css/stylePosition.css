@@ -1,0 +1,307 @@
+:root {
+    --prim: #e17487;
+    --sec: #26292e;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #e17487
+    );
+    --mainMid: #f4f4f6;
+    --fig1: #f4f4f6;
+    --fig2: #444444;
+    --btn: #4a4a4a;
+    --font1: "Playwrite CU", cursive;
+}
+
+* {box-sizing: border-box;}
+
+/* remember to apply background color to the parents of their current divs */
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* tag names */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* classes */
+
+.bold {
+    font-weight: 700;
+    color: black;
+}
+
+.button {
+    height: 50px;
+    padding: 4px 16px;
+    margin-top: 20px;
+    margin-left: 40px; 
+    border-radius: 5px;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: var(--btn);
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid blue;
+}
+
+.clear {
+    clear: both;
+}
+
+.clients-text {
+    padding-left: 20px;
+    margin-bottom: 70px;
+    width: 75%;
+    font-size: medium;
+    color: #999;
+}
+
+.colophon {
+    color: white;
+    font-size: small;
+    /* padding-left: 190px; */
+}
+
+.icon {
+    display: inline-block;
+    /* width: 1.5em;
+    height: 1.5em;
+    stroke-width: 0;
+    color: var(--sec);
+    stroke: currentColor;
+    fill: currentColor; */
+}
+
+.image {
+    padding: 0;
+    width: 35%;
+}
+
+.icons {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.socials {
+    text-align: right;
+    display: inline;
+    margin: 40px auto;
+    list-style-type: none;
+}
+
+.main-list-item {
+    /* flex-direction: row; */
+}
+
+.main-list-item-text {
+    color: #888;
+    width: 70%;
+    font-weight: 200;
+}
+
+.text {
+    font-family: sans-serif;
+}
+
+.top-text {
+    font-family: sans-serif;
+    margin: 30px;
+    color: white;
+    border: 1px solid purple;
+}
+
+.header {
+    width: 100%;
+    /* padding: 4px 0; */
+    background-color: var(--sec); 
+    font-family: var(--font1);
+    color: #ddd;
+    border: 1px solid red;
+}
+
+.product {
+    background-color: var(--fig2);
+    border: 10px solid #999;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 180px;
+}
+
+.products {
+    /* float: left; */
+}
+
+.products-section {
+    margin-left: 200px;
+    width: calc((100% / 3) * 2);
+}
+
+.nav, .heading {
+}
+
+/* ids */
+
+#bottomNav {
+    /* float: right; */
+}
+
+#clients {
+    width: calc(100% / 3);
+}
+
+#clientsHeading {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    font-size: medium;
+}
+
+
+#dlBtn {
+    text-decoration: none;
+    padding: 16px 19px;
+    font-family: sans-serif;
+    font-weight: 450;
+    text-transform: capitalize;
+    border-radius: 5px;
+    border: 1px solid orange;
+    background: var(--btn);
+    width: 24%;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#footer {
+    background-color: var(--sec);
+}
+
+#footerRow {
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+
+#headerHeading {
+    width: 60%;
+    border: 1px solid green;
+}
+
+#headerHeading, #topNav {
+    position: absolute;
+}
+
+/* parent MUST HAVE WIDTH AND HEIGHT when using position */
+
+#headerRow {
+    position: relative;
+    border: 1px solid orange;
+    width: 100%;
+    height: 50px;
+    /* float: left; */
+}
+
+#mainBottom {
+    font-family: sans-serif;
+    /* width: calc((100% / 3) * 2); */
+    border: 1px solid orange;
+    /* display: flex; */
+}
+
+#mainBottomText {
+    margin-top: 25px;
+    width: 150%;
+    font-size: medium;
+}
+
+#mainBottomRow {
+    /* display: flex; */
+}
+
+#mainList {
+    /* display: flex; */
+    height: 300px;
+    /* margin: 80px; */
+}
+
+#mainMidRow {
+    background-color: var(--mainMid);
+    font-family: sans-serif;
+    border-bottom: 5px solid #eca9ee;
+    /* display: flex; */
+    padding-top: 50px;
+    padding-bottom: 90px;
+    padding-left: 190px;
+}
+
+#mainImg {
+    border: 1px solid orange;
+    display: inline;
+    /* float: right; */
+}
+
+#mainImgDiv {
+    /* margin-right: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px; */
+    width: 50%;
+    height: 100%;
+    border: 1px solid orange;
+    /* justify-content: space-between; */
+}
+
+#mainTop {
+    background-color: var(--prim);
+    background-image: var(--grad);
+    padding-left: 190px;
+}
+
+#mainTopContent {
+    border: 1px solid red;
+    width: 50%;
+}
+
+#mainTopRow {
+    /* display: flex; */
+}
+
+
+#mtText1, #mtText2 {
+    font-size: 14px;
+}
+
+#navList {
+    width: 100%;
+    border: 1px solid orange;
+    /* float: right; */
+}
+
+#products {
+    width: 100%;
+    /* display: flex; */
+    gap: 45px;
+    /* flex-wrap: wrap; */
+    border: 1px solid red;
+}
+
+#topNav {
+    border: 1px solid blue;
+    width: 20%;
+    top: 10px;
+    right: 0;
+}
+
+/* 0 = the furthest right of the parent. negatives push it outside of the right. */
